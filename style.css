@@ -1,0 +1,104 @@
+h1 {
+  color: #ccd5ae;
+  letter-spacing: 1;
+  font-family: 'EB Garamond', serif;
+}
+
+h2 {
+  font-family: 'EB Garamond', serif;
+  color: #ccd5ae;
+
+
+}
+
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #9C6630;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#profile_picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.article_picture {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+
+.bouton_vert {
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+#button {
+  background-color: #ccd5ae;
+  color:  black;
+}
+
+
+#button:hover {
+  background-color: #9C6630;
+  color: white;
+}
+
+
+.center {
+  text-align: center;
+}
+
+.intro_banner {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+  border-radius: 5px;
+}
+
+
+.image_container {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.profile_container {
+  display: flex;
+}
+
+
+
+
+@media (max-width:  540px) {
+  .bouton_vert {
+    background-color: blue;
+  }
+
+  #profile_picture {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+
+  .article_picture {
+    width: 200px;
+    height: 100px;
+  }
+
+}
+
+
+
+
